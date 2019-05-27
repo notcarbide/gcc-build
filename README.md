@@ -1,6 +1,6 @@
 ### Script for building gcc using ClearLinux specs
 
-Search for BuildRequires [here](https://raw.githubusercontent.com/clearlinux-pkgs/gcc/master/gcc.spec) for requirements.
+Search for `BuildRequires` [here](https://raw.githubusercontent.com/clearlinux-pkgs/gcc/master/gcc.spec) for requirements.
 
 Usage:
 ```
