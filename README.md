@@ -28,7 +28,7 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8.3 80 --slave 
 sudo update-alternatives --config gcc
 
 # Select version for compiled gcc from list
-# ex: /use/bin/gcc-8.3
+# ex: /usr/bin/gcc-8.3
 
 # Check gcc version
 
