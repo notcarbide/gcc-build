@@ -16,6 +16,11 @@ Install:
 sudo make LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH install
 ```
 
+Clean:
+```
+git clean -df
+```
+
 Configure as default `gcc`:
 ```
 # Value 80 can be set to whatever priority you want
