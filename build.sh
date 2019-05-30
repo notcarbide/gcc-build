@@ -51,7 +51,7 @@ export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
     --enable-cet \
     --disable-libmpx \
     --with-gcc-major-version-only \
-    --program-suffix=-8.3 \
+    --program-suffix=-9.1 \
     --enable-default-pie
 
 make -j 4
