@@ -5,8 +5,8 @@ Search for `BuildRequires` [here](https://raw.githubusercontent.com/clearlinux-p
 Usage:
 ```
 mkdir gcc && cd gcc
-git clone https://github.com/notcarbide/gcc-build.git
-git clone https://github.com/notcarbide/gcc-8 src
+git clone https://github.com/notcarbide/gcc-build.git -b gcc-9
+git clone https://github.com/notcarbide/gcc-8 -b gcc-9-dev src
 cd gcc-build
 ./build.sh
 ```
@@ -21,14 +21,14 @@ Configure as default `gcc`:
 # Value 80 can be set to whatever priority you want
 # Higher means it's more likely to default via auto
 
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8.3 80 --slave /usr/bin/g++ g++ /usr/bin/g++-8.3
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9.1 80 --slave /usr/bin/g++ g++ /usr/bin/g++-9.1
 
 # If priority is lower than current default gcc
 
 sudo update-alternatives --config gcc
 
 # Select version for compiled gcc from list
-# ex: /use/bin/gcc-8.3
+# ex: /use/bin/gcc-9.1
 
 # Check gcc version
 
