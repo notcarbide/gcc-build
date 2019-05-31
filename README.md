@@ -5,8 +5,8 @@ Search for `BuildRequires` [here](https://raw.githubusercontent.com/clearlinux-p
 Usage:
 ```
 mkdir gcc && cd gcc
-git clone https://github.com/notcarbide/gcc-build.git
-git clone https://github.com/notcarbide/gcc-8 src
+git clone https://github.com/notcarbide/gcc-build.git -b gcc-8
+git clone https://github.com/notcarbide/gcc-8 -b gcc-8-dev src
 cd gcc-build
 ./build.sh
 ```
