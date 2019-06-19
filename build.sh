@@ -40,6 +40,7 @@ export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
     --target='x86_64-linux-gnu'\
     --enable-languages="c,c++,fortran,go" \
     --enable-bootstrap \
+    --with-build-config=bootstrap-lto \
     --with-ppl=yes \
     --with-isl \
     --includedir=/usr/include \
